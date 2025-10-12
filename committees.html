@@ -1,0 +1,145 @@
+<html> 
+<head>
+<link rel="icon" href="mun logo.png" type="png">
+<link rel="stylesheet" href="https://use.typekit.net/umf3sho.css">
+<title> Committees </title>
+</head>
+<body 
+style="background-color:#E3DAC9">
+<div class="top-header">
+  <div style="position: relative; max-width: 1000px; margin: 0 auto;">
+    <a href="home.html" class="back-button">
+      <img src="back.png" alt="Back to home">
+    </a>  
+    <h1 class="site-title"> Our Committees </h1>
+    <img src="mun logo.png" alt="Logo" class="site-logo">
+  </div>
+</div>
+<div class="new-image-grid">
+    <div class="new-image-item"><a href="ga1.html"><img src="ga1.png" alt="GA1"></a></div>
+    <div class="new-image-item"><a href="hrc.html"><img src="hrc.png" alt="HRC"></a></div>
+    <div class="new-image-item"><a href="ecofin.html"><img src="ecofin.png" alt="ECOFIN"></a></div>
+    <div class="new-image-item"><a href="ga3.html"><img src="ga3.png" alt="GA3"></a></div>
+  
+    <div class="new-image-item"><a href="unwomen.html"><img src="unwomen.png" alt="UN Women"></a></div>
+    <div class="new-image-item"><a href="icc.html"><img src="icc.png" alt="ICC"></a></div>
+    <div class="new-image-item"><a href="sc.html"><img src="sc.png" alt="Security Council"></a></div>
+    <div class="new-image-item"><a href="icj.html"><img src="icj.png" alt="ICJ"></a></div>
+  
+    <div class="new-image-item"><a href="unpr.html"><img src="unpr.png" alt="UNPR"></a></div>
+    <div class="new-image-item"><a href="aicc.html"><img src="aicc.png" alt="AICC"></a></div>
+    <div class="new-image-item"><a href="iaea.html"><img src="iaea.png" alt="IAEA"></a></div>
+    <div class="new-image-item"><a href="special.html"><img src="special.png" alt="Special Committee"></a></div>
+  </div>
+<style>
+.top-header {
+    position: relative;
+    max-width: 1000px;        
+    margin: 0 auto;
+    padding: 20px 0;        
+    box-sizing: border-box;
+  }
+  .site-title {
+  text-align: center;
+  margin: 0;
+  font-size: 2em;
+}
+.site-logo {
+  position: absolute;
+  top: 20px;
+  right: 0;               
+  height: 50px;
+}
+body {
+  font-family: "noto-serif-extracondensed", serif;
+font-weight: 700;
+font-style:italic;
+color:#023d0F;
+border: 5px solid #023d0F; }
+
+.grid-title {
+  max-width: 1000px;     
+  margin: 0 auto 20px;    
+  padding-left: 0;        
+  text-align: left;       
+  font-size: 2em;
+}
+.back-button img {
+  width: 50px; 
+  height: auto;
+  cursor: pointer;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image-item {
+  text-align: center;
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* changed from flex-start */
+  text-align: center;   /* added */
+}
+
+.image-item img {
+  width: 100%;
+  aspect-ratio: 1 / 1;     /* added */
+  object-fit: cover;       /* added */
+  display: block;
+}
+.new-image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 images per row */
+  gap: 30px;
+  max-width: 1000px;    /* same max width as your other grids */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+        /* nice rounded corners */
+}
+
+.new-image-item {
+  aspect-ratio: 1 / 1; /* or 1 / 1 for square */
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.new-image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* crop to fill while preserving aspect ratio */
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.new-image-item:nth-child(1) img {
+  object-fit: contain;
+}
+
+.new-image-item:nth-child(2) img {
+  object-fit: contain;
+}
+.new-image-item:nth-child(4) img {
+  object-fit: contain;
+}
+
+.new-image-item:hover {
+
+  transform: scale(1.05);
+}
+
+.new-image-item:hover img {
+  transform: scale(1.1);
+}
+</style>   
+</body>
